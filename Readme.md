@@ -13,7 +13,6 @@ f) Return median of two sorted arrays of the same size.
 g) Remove duplicates from an array
 h) Rotate an array by k times
 
-
 Task 2 ->Execute below programs in arrow functions.
 a) Print odd numbers in an array
 b) Convert all the strings to title caps in a string array
