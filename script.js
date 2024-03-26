@@ -24,8 +24,8 @@ console.log("----------------------------");
 
 console.log("Method 2-->IIFE function");
 console.log("Array-[1, 3, 5, 2, 46, 76, 80, 34, 44, 33, 22, 65, 99]");
-var result = [];
-var a1 = (function (arr) {
+var result = []; 
+(function (arr) {
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] % 2 !== 0) {
       result.push(arr[i]);
@@ -81,7 +81,7 @@ console.log(
   "Before Title Caps->hI,wELcome,thIS is demO OF ConveRtiNG aLl sTrIngs TO TiTLE  cAps"
 );
 var result = [];
-var b1 = (function (arr) {
+(function (arr) {
   let str = [];
   for (var i = 0; i < arr.length; i++) {
     //console.log(arr[i].toLowerCase());
@@ -127,7 +127,7 @@ console.log("----------------------------");
 
 console.log("Method 2-->IIFE function");
 console.log("Array->[133, 532, 390, 47, 51, 69, 72, 86, 97, 170]");
-var c1 = (function (arr) {
+ (function (arr) {
   let sum = 0;
   for (var i = 0; i < arr.length; i++) {
     sum += arr[i];
@@ -172,7 +172,7 @@ console.log("----------------------------");
 console.log("Method 2-->IIFE function");
 console.log("Array->[133, 532, 390, 47, 51, 69, 72, 86, 97, 173]");
 var result = [];
-var d1 = (function (arr) {
+(function (arr) {
   let isPrime = true;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === 2) {
@@ -236,7 +236,7 @@ console.log("Method 2-->IIFE function");
 console.log(
   "Array->[civic, radar,hi,level,welcome,malayalam,rotor,kayak, madam,refer,name,Date,size]"
 );
-var e1 = (function (arr) {
+ (function (arr) {
   var result = [];
   for (var i = 0; i < arr.length; i++) {
     let rev = arr[i].split("").reverse().join("");
@@ -293,7 +293,7 @@ console.log("----------------------------");
 
 console.log("Method 2-->IIFE function");
 console.log("Array1->[1,3,2,5,6,8,9,7,4],Array 2->[10,12,15,14,13]");
-var f1 = (function (arr1, arr2) {
+(function (arr1, arr2) {
   var result = [];
   let sortedarr1 = arr1.sort();
   let sortedarr2 = arr2.sort();
@@ -331,7 +331,7 @@ console.log("----------------------------");
 
 console.log("Method 2-->IIFE function");
 console.log("Array->1,32,22,22,3,16,25,16,6,7,9,6]");
-var g1 = (function (arr) {
+ (function (arr) {
   let newarr = [];
   for (let i = 0; i < arr.length; i++) {
     if (newarr.indexOf(arr[i]) === -1) {
